@@ -1,72 +1,36 @@
-# Project Name
+# Web Scraping For Your Hobby Or: Tracking Favourite Products
 
-example image:
-
-
-![alternative text](reports/img/pic01.jpg)
-
-
-#### -- Project Status: [Active, On-Hold, Completed]
+#### -- Project Status: [Active]
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project. Limit to a short paragraph, 3-6 Sentences)
+The purpose of this project is to build a web scraper. In this particular case the idea is to support one's hobby and keep track of a certain product range/ a certain product of interest from a particular webshop.
 
-### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact]
-* If you do not have a partner leave this section out
+#### In my particular case
+Anna Maria Horner is a designer for patchwork fabric. Her designs are vibrant and colorful - often times with folkloric motives. The fabrics are perfect for flower power homes and friends of maximalism.
+
+Let's build a crawler that checks on Anna Maria Horner products from a known webshop in the UK. 
+
 
 ### Methods Used
-* Inferential Statistics
-* Machine Learning
-* Data Visualization
-* Predictive Modeling
-* etc.
+* Web Scraping using requests, BeautifulSoup
+* Processing and Storing result in DataFRame, as csv file
 
 ### Technologies
-* R
 * Python
-* D3
-* PostGres, MySql
 * Pandas, jupyter
-* HTML
-* JavaScript
-* etc.
+* requests, BeautifulSoup (bs4)
 
 ## Project Description
-(Provide more detailed overview of the project.
-Talk a bit about your data sources and what questions and hypothesis you are exploring.
-What specific data analysis/visualization and modelling work are you using to solve the
-problem? What blockers and challenges are you facing?
-Feel free to number or bullet point things here)
+#### Important Note
+Always check on the website robots.txt and see if and what the owners allow in regard to gathering information.
 
-## Getting Started
+#### Notebook WebScraping_SearchResult_FirstPage.ipynb
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
+This is the introductory notebook. It starts with the first step - checking robots.txt and walks step by step through the process of:
+- initiating a request with a search term using requests, printing the status code
+- storing the result with usage of BeautifulSoup
+- explaining how to access each single product and store them in a list
+- gathering all kind of information like product name, product type, price, product page
+- storing everything in a DataFrame and csv file
 
-    *If using offline data mention that and how they may obtain the data from the froup)*
-
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages)
-create another "setup.md" file and link to it here*
-
-5. Follow setup [instructions](Link to file)
-
-## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
-
-
-## Contributing Members
-
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])**
-
-#### Other Members:
-
- - [Full Name](https://github.com/[github handle])
- - [Full Name](https://github.com/[github handle])
+ 
