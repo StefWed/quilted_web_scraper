@@ -13,7 +13,7 @@ Let's build a crawler that checks on Anna Maria Horner products from a known web
 
 ### Methods Used
 * Web Scraping using requests, BeautifulSoup
-* Processing and Storing result in DataFRame, as csv file
+* Processing data and storing result in DataFrame, and as csv file
 
 ### Technologies
 * Python
