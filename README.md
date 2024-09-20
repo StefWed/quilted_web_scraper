@@ -8,7 +8,7 @@ The purpose of this project is to build a web scraper tracking a particular sear
 #### In my particular case
 Anna Maria Horner is a designer for patchwork fabric. Her designs are vibrant and colorful - often times with folkloric motives. The fabrics are perfect for flower power homes and friends of maximalism.
 
-Let's build a scraper that checks on Anna Maria Horner products from a webshop in the UK. 
+Let's build a scraper that checks on Anna Maria Horner products from an online webshop. 
 
 
 ### Methods Used
@@ -25,7 +25,7 @@ Let's build a scraper that checks on Anna Maria Horner products from a webshop i
 #### Important Note
 Respect Scraping Ethics! 
 
-Always check on the website's robots.txt and see if and what the owners allow in regard to gathering information. The scraped content belongs to the website owner. Check robots.txt and the Terms of Use! If in doubt, scrape websites which have an API. Making requests to a website can cause a toll on a website's performance, please do not cause any disruption to the regular functioning of the website!
+The scraped content belongs to the website owner. Check robots.txt and the Terms of Use! If in doubt, scrape websites which have an API. Making requests to a website can cause a toll on a website's performance, please do not cause any disruption to the regular functioning of the website!
 
 #### Notebook WebScraping_SearchResult_FirstPage.ipynb
 
