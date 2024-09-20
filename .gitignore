@@ -36,3 +36,6 @@ Thumbs.db
 
 # txt file that contains path to data folder
 /notebooks/path_to_data.txt
+
+# data folder
+/data
