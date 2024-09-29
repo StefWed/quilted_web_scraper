@@ -1,9 +1,9 @@
 # Web Scraping For Your Hobby Or: Tracking Favourite Products
 
-#### -- Project Status: [Active]
+#### -- Project Status: [Closed]
 
 ## Project Intro/Objective
-The purpose of this project is to build a web scraper tracking a particular search term. In this case at hand the idea is to support one's hobby and keep track of a certain product range/ a certain product of interest from a particular webshop.
+The purpose of this project is to build a web scraper tracking a particular search term. In this case at hand the idea is to support one's hobby and keep track of a certain product range/ a certain product of interest from a particular webshop. Be aware that this project serves as an example - a walkthrough on how one builds a web scraper and what to pay attention to. The website and data are not shared completely.
 
 #### In my particular case
 Anna Maria Horner is a designer for patchwork fabric. Her designs are vibrant and colorful - often times with folkloric motives. The fabrics are perfect for flower power homes and friends of maximalism.
@@ -39,7 +39,7 @@ It starts with the first step - checking robots.txt and walks step by step throu
 
  #### Notebook WebScraping_SearchResult_FirstPage_MoreAdvanced.ipynb
 
- This notebooks build up on the first one. The code is build up in proper functions with docstrings.
+ This notebook builds up on the first one. The code is build up in proper functions with docstrings.
  
  The input() function from Python was added to aks for the specific search term/ search phrase. Other than that a few messages/ functionalities werde added - for instance in the case when no product was found.
 
