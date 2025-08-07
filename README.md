@@ -29,7 +29,7 @@ The scraped content belongs to the website owner. Check robots.txt and the Terms
 
 #### Notebook WebScraping_SearchResult_FirstPage.ipynb
 
-This is the introductory notebook, it serves as a prototype. Data is 
+This is the introductory notebook, it serves as a prototype.
 It starts with the first step - checking robots.txt and walks step by step through the process of:
 - initiating a request with a search term using requests, printing the status code
 - storing the result with usage of BeautifulSoup
